@@ -1,0 +1,64 @@
+.bg_image_confirmAccount {
+      position: absolute;
+      width: 1900px;
+      background-position: center center;
+      background-size: contain;
+      height: 100vh;
+      background-repeat: no-repeat;
+      z-index: -1;
+}
+
+.divContainer_confirm{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100vh;
+}
+.divsub{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 7px;
+      background: #fb5b21;
+      max-width: 800px;
+      width: 96%;
+      box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.15);
+}
+.button_confirm{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 15px;
+      width: 150px;
+      height: 35px;
+      border-radius: 7px;
+      border: none;
+      color: antiquewhite;
+      background-color: rgb(0, 191, 255);
+      transition: .2s;
+      font-size: 16px;
+}
+.button_confirm:hover {
+      cursor: pointer;
+      background-color: rgb(1, 171, 228);
+      color: rgb(255, 255, 255);
+      transform: translatey(-2px);
+}
+.button_confirm:active {
+      transform: scale(.90);
+}
+.navLink_confirm{
+      text-decoration: none;
+}
+.h2_confirmAccount{
+      margin-bottom: 15px;
+}
+
+.logo_footer_login{
+      width: 250px;
+      transition: .2s;
+      cursor: pointer;
+      filter: drop-shadow(1px 6px 5px #000000);
+}

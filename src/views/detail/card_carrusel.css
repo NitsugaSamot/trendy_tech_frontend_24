@@ -1,0 +1,37 @@
+.cardCarrousel_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 15rem;
+    height: 200px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cardCarrousel_img_container {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+
+.cardCarrousel_img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.cardCarrousel_name {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.cardCarrousel_price {
+    font-size: 1.2rem;
+}
+
+.cardCarrousel {
+    background: none;
+    border: none;
+    cursor: pointer;
+}

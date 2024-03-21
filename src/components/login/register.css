@@ -1,0 +1,107 @@
+.bg_image_register{
+      position: absolute;
+      width: 1900px;
+      background-position: center center;
+      background-size: contain;
+      height: 100vh;
+      background-repeat: no-repeat;
+      z-index: -1;
+}
+.divContainer_Register{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin-top: 30px;
+      font-family: 'Poppins', sans-serif;
+}
+.h1_Register{
+      width: 94%;
+      max-width: 550px;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #fc6933;
+      text-align: center;
+      font-size: 25px;
+      margin-bottom: 10px;
+      box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+}
+.form_Register {
+      border: none;
+      background-color: #fc6933;
+      width: 94%;
+      max-width: 550px;
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      text-align: left;
+      color: rgb(255, 255, 255);
+      border-radius: 5px;
+      padding: 10px;
+      box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.div_input_Register{
+      margin: 10px;
+}
+
+.input_Register {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border: solid black 2px;
+      height: 35px;
+      border-radius: 5px;
+      font-size: 16px;
+}
+
+.button_form_Register{
+      display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            width: 150px;
+            height: 35px;
+            border-radius: 7px;
+            border: none;
+            color: antiquewhite;
+            background-color: rgb(0, 191, 255);
+            transition: .2s;
+            font-size: 16px;
+}
+.button_form_Register:hover {
+      cursor: pointer;
+      background-color: rgb(1, 171, 228);
+      color: rgb(255, 255, 255);
+      transform: translatey(-2px);
+}
+.button_form_Register:active {
+      transform: scale(.90);
+}
+
+.nav_Login_reset {
+      display: flex;
+      text-align: center;
+}
+
+.links_Login_and_reset {
+      width: 70%;
+      cursor: pointer;
+      font-size: 15px;
+      margin: 5px;
+      color: rgb(80, 61, 248);
+      text-decoration: none;
+}
+
+.logo_footer_login{
+      width: 250px;
+      transition: .2s;
+      cursor: pointer;
+      margin-left: 50px;
+      filter: drop-shadow(1px 6px 5px #000000);
+}
+.logo_footer_login:hover {
+      width: 250px;
+      filter: none;
+}

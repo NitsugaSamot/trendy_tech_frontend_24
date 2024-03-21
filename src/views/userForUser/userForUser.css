@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.imageContainer {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.userImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.editIconOverlay {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 50%;
+}
+
+.userName {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.userName h2 {
+    margin: 0;
+    margin-right: 10px;
+}

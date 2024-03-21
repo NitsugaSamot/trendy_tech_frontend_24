@@ -1,0 +1,9 @@
+.linkedin-profiles {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile {
+  display: inline-block;
+  margin-right: 20px; /* Espacio entre las fotos, ajusta según lo necesites */
+}

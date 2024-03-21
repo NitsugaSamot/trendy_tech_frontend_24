@@ -1,0 +1,43 @@
+.preguntas-frecuentes {
+  margin: 50px;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.preguntas-frecuentes h4 {
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.preguntas-frecuentes ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.preguntas-frecuentes li {
+  margin-bottom: 30px;
+}
+
+.preguntas-frecuentes .question-text {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.preguntas-frecuentes p {
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+.preguntas-frecuentes .MuiSvgIcon-root {
+  font-size: 30px;
+  color: #007bff;
+}
+
+/* Estilo para el ícono de expansión cuando está contraído */
+.preguntas-frecuentes .MuiCollapse-entered .MuiSvgIcon-root {
+  transform: rotate(0deg);
+}

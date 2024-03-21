@@ -1,0 +1,37 @@
+
+.Nav_Logo {
+    object-fit: contain;
+    transition: .3s;
+}
+.Nav_Logo:hover {
+    transform: scale(1.05);
+}
+.Nav_Logo:active {
+    transform: scale(1);
+}
+
+.Nav_IconoCarrito {
+    color: white;
+}
+.Nav_IconoCarrito:hover {
+    transform: scale(1.05);
+}
+.Nav_IconoCarrito:active {
+    transform: scale(1);
+}
+
+.Nav_IconoPerfil {
+    color: white;
+}
+.Nav_IconoPerfil:hover {
+    transform: scale(1.05);
+}
+.Nav_IconoPerfil:active {
+    transform: scale(1);
+}
+
+.button_presentation{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}

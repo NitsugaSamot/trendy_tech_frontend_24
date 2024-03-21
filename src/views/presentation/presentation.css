@@ -1,0 +1,57 @@
+
+
+
+
+.div_image_carrusel{
+      position: relative;
+}
+
+.carousel_img{
+      width: 100%;
+      position: relative;
+      opacity: 0;
+      transition: 1s;
+}
+
+.carousel_img.loaded{
+      opacity: 1;
+}
+
+.carousel_button_prev{
+      position: absolute;
+      top: 50%;
+      left: 0%;
+      
+}
+
+.carousel_button_next{
+      position: absolute;
+      top: 50%;
+      right: 0;
+}
+
+.div_carrousel_latest{
+      background: #ececec;
+      width: 80vw;
+}
+
+.carousel-item{
+      width: 100%;
+}
+
+.div_container_carrousel2{
+      margin-top: 4%;
+}
+
+.hr_presentation{
+      margin: 0 auto;
+      border-radius: 2px;
+      border: 2px solid orangered;
+      width: 100%;
+}
+
+.h2_presentation {
+      font-size: 30px;
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 10px;
+}

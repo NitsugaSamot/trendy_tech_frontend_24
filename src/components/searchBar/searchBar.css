@@ -1,0 +1,25 @@
+.SearchBar_Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #e76000;
+    padding: 0px 10px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.SearchBar_Input {
+    background-color: white;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    width: 30rem;
+}
+
+.SearchBar_Button {
+    display: flex;
+    color: black;
+    border: none;
+    cursor: pointer;
+    background:none;
+}
